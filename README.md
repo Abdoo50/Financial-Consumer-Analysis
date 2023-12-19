@@ -19,30 +19,29 @@ The project aims to analyze the Financial-Consumer dataset to derive insights an
 
 The dashboard provides an interactive visualization platform to understand the historical performance of countries in Financial Consuming. It integrates various data points into a coherent narrative, making complex data more accessible.
 
-## Dataset
-The dataset contains [number of entries] records detailing consumer financial activity across multiple countries. Fields include [list of key fields].
+# Dataset
+![Dataset](https://github.com/sahermuhamed1/Financial-Consumer-Data/blob/main/dataset.png)
 
-## EDA-Financial-Consumer-Data Notebook
-This section documents the exploratory data analysis (EDA) performed using Python. It outlines the cleaning process, the exploratory techniques employed, and the rationale behind the methods used.
 
-## Usage
-To use this project:
-1. Clone the repository.
-2. Install required dependencies: `pip install -r requirements.txt`
-3. Run the Jupyter notebook for EDA.
-4. Import the cleaned data to Power BI for visualization.
+# EDA-Financial-Consumer-Data Notebook
 
-## Findings
-Key insights from the analysis include:
-- Insight 1
-- Insight 2
-- Insight 3
+**EDA and data cleaning**
+1. Drop unnecessary columns
+2. Replace some missing values
+3. Remove duplicates
+4. Replace missing values with predictive values using the KNN algorithm
+5. Use erangleing function
+6. Upload the final data to Power BI
 
-## Contributions
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) to get started.
+**Kaggle Notebook**
+[EDA notebook](https://github.com/sahermuhamed1/Financial-Consumer-Data/blob/main/eda-financial-consumer-data.ipynb)
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+# Usage
+Download the final dashboard from [Here](https://github.com/sahermuhamed1/Financial-Consumer-Data/blob/main/FInancial%20consumer%20project.pbix)
+
+Download the dataset from [Here](https://github.com/sahermuhamed1/Financial-Consumer-Data/blob/main/Financial_Consumer_data111.csv)
+
+Download the notebook from [Here](https://github.com/sahermuhamed1/Financial-Consumer-Data/blob/main/eda-financial-consumer-data.ipynb)
 
 ## Contact Information
 For any queries or further collaboration, feel free to contact [Your Name] at [your.email@example.com].
